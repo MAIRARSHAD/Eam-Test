@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<style>
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding: 10px 10px;
+    
+   
+   
+   }
+   nav li a{
+    display: inline-block;
+    font-size: 25px;
+    text-transform: uppercase;
+
+   }
+   
+ .sec{
+  position: relative;
+  height:900px;
+
+}
+.sec::before{
+  position: absolute;
+  background: url('./hero-bg.jpg');
+  content: '';
+  width:100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.44;
+}
+.sec {
+  padding-top: 200px;
+display: block;
+margin: auto;
+text-align: center;
+font-size: 100px;
+text-transform: uppercase;
+letter-spacing: 2px;
+
+}
+h1{
+  
+}
+</style>
+<body>
+
+  <nav >
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">About Us</a></li>
+      <li><a href="">Contact Us</a></li>
+      <li><a href="">Our Services</a></li>
+    </ul>
+  </nav>
+ <section class="sec">
+<h1>We are Creative</h1>
+ </section>
+ 
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
